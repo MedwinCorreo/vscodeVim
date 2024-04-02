@@ -1,0 +1,73 @@
+{
+  "dart.flutterSdkPath": ".fvm/flutter_sdk",
+  // Remove .fvm files from search
+  "search.exclude": {
+    "**/.fvm": true
+  },
+  // Remove from file watching
+  "files.watcherExclude": {
+    "**/.fvm": true
+  },
+    "workbench.iconTheme": "material-icon-theme",
+      "vim.easymotion": true,
+      "vim.incsearch": true,
+      "vim.useSystemClipboard": true,
+      "vim.useCtrlKeys": true,
+      "vim.hlsearch": true,
+      "vim.insertModeKeyBindings": [
+        {
+          "before": ["j", "j"],
+          "after": ["<Esc>"]
+        }
+      ],
+      "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["<leader>", "d"],
+          "after": ["d", "d"]
+        },
+        {
+          "before": ["<C-n>"],
+          "commands": [":nohl"]
+        },
+        {
+          "before": ["K"],
+          "commands": ["lineBreakInsert"],
+          "silent": true
+        }
+      ],
+      "vim.leader": "<space>",
+      "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-p>": false,
+        "<C-f>": false
+      },
+      "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+      },
+    "todo-tree.tree.showScanModeButton": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "workbench.colorTheme": "Default Dark+",
+    // Remove .fvm files from search
+  
+    "git.ignoredRepositories": [
+      "c:\\Users\\medwi\\.vscode\\extensions\\stepsize.stepsize-1.0.15\\resources\\demo-repository"
+    ],
+    "dart.debugExternalPackageLibraries": false,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "bitoAI.codeCompletion.enableAutoCompletion": true,
+    "bitoAI.codeCompletion.enableCommentToCode": true,
+}
